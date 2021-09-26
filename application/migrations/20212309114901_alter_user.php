@@ -21,7 +21,6 @@ class Migration_Alter_user extends CI_Migration {
                 );
                 $this->dbforge->add_column('nu_users', $fields);
 
-                $this->db->
         }
 
         public function down()
